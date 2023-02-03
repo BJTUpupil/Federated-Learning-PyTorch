@@ -27,7 +27,7 @@ python src/baseline_main.py --model=mlp --dataset=mnist --epochs=10
 ```
 * Or to run it on GPU (eg: if gpu:0 is available):
 ```
-python src/baseline_main.py --model=mlp --dataset=mnist --gpu=0 --epochs=10
+python src/baseline_main.py --model=mlp --dataset=mnist --gpu=cuda:0 --epochs=10
 ```
 -----
 
